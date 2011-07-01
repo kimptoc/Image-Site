@@ -1,0 +1,22 @@
+<%= javascript_include_tag "jquery-cycle/jquery.cycle.all.min.js" %>
+
+<script type="text/javascript">
+  $(function() {
+
+      $('#slideshow').cycle({
+    fx:      '<%= @slideshow_effect %>',
+//    speed:    300,
+    timeout:  5000
+});
+  })
+</script>
+
+<div class="pics" id="slideshow">
+<% @sample_photos.each do |ph| %>
+ <img src="<%= url_for :controller => "photos", :action => "show", :project_id => ph.project.id, :photo_id => ph.id %>" height="<%= ph.height %>" width="<%= ph.width %>">
+<% end %>
+</div>
+
+<br>
+<%= sanitize @body_part_html %>
+[perhaps make this a right hand side bit instead of below, if needed...]

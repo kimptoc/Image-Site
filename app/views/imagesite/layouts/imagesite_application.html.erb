@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= @site_title %></title>
+  <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag "960gs/960" %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<div class="container_12">
+  <div class="grid_12">
+    <p>
+    <h1 class="sitetitle"><a href="/"><%= @page_title %></a></h1>
+    </p>
+  </div>
+</div>
+
+<div class="container_12">
+  <div class="grid_3">
+    <p class="title">
+    Projects
+      <ul class="title">
+        <% @projects.each { |p| %>
+        <li><%= link_to p.name, :controller => "imagesite/projects", :action => "show", :id => p.id %></li>
+        <% } %>
+      </ul>
+    </p>
+    <p class="title">&nbsp;
+    </p>
+    <p class="title">
+      <%= link_to "Information", :controller => "imagesite/site", :action => "information" %>
+    </p>
+    <p class="title">
+      <%= link_to "Links", :controller => "imagesite/site", :action => "links" %>
+    </p>
+  </div>
+  <div class="grid_9">
+    <p>
+    <%= yield %>
+    </p>
+  </div>
+</div>
+
+
+</body>
+</html>

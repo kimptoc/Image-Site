@@ -1,0 +1,88 @@
+<%= javascript_include_tag "tabs" %>
+
+<h2><%= @project.name %></h2>
+
+<!-- start the tabs wrapper (not necessery, but good to have) -->
+<div id="tabs_wrapper">
+    <!--  the tab links  -->
+  <div class="container_12">
+  <div class="grid_6">&nbsp;
+  </div>
+  <div class="grid_3 projectlinks">
+    <% if @project.present? and @project.photos.count > 0 %>
+    <a class="tab_link tab_link_selected" title="#images" href="#">back</a>
+    <a class="tab_link" title="#thumbnails" href="#">thumbnails</a>
+    <a class="tab_link" title="#about" href="#">about</a>
+    <% else %>
+        <a class="tab_link tab_link_selected" title="#about" href="#">about</a>
+    <% end %>
+  </div>
+  </div>
+
+  <!--  end tab links  -->
+
+  <!--  clear it  -->
+
+  <!-- start tab text containers  -->
+  <% if @project.present? and @project.photos.count > 0 %>
+  <div id="images" class="tab_text active_tab">
+
+
+
+<div class="container_12">
+<div class="grid_3 projectlinks">
+<span id="pagenum">1</span>/<%= @project.photos.count %>&nbsp; &nbsp; &nbsp;     <a href="#" id="prev" class="nextprev">prev</a> | <a href="#" id="next" class="nextprev">next</a>
+</div>
+</div>
+
+<br>
+
+
+<p></p>
+
+<%= javascript_include_tag "jquery-cycle/jquery.cycle.all.min.js" %>
+
+<script type="text/javascript">
+  $(function() {
+
+      $('#slideshow').cycle({
+    fx:      '<%= @slideshow_effect %>',
+//    speed:    300,
+    timeout:  0,
+    next:   '#slideshow,#next',
+    prev:   '#prev',
+    after:     onAfter
+});
+  });
+
+function onAfter(curr,next,opts) {
+	var caption = (opts.currSlide + 1);
+	$('#pagenum').html(caption);
+}
+</script>
+
+
+<div class="pics" id="slideshow">
+<% @project.photos.each do |ph| %>
+    <img src="<%= url_for :controller => "photos", :action => "show", :project_id => @project.id, :photo_id => ph.id %>" height="<%= ph.height %>" width="<%= ph.width %>">
+    <%= sanitize ph.caption %>
+<% end %>
+</div>
+
+</div>
+<div id="thumbnails" class="tab_text">
+  <div class="pics" id="thumbs">
+  <% @project.photos.each_with_index do |ph, idx| %>
+        <img src="<%= url_for :controller => "photos", :action => "showthumb", :project_id => @project.id, :photo_id => ph.id %>">
+  <% end %>
+  </div>
+
+
+</div>
+<% end %>
+<div id="about" class="tab_text">
+<%= sanitize @about_part_html %>
+</div>
+<!--  end tab text containers  -->
+</div>
+<!-- end the tabs wrapper -->

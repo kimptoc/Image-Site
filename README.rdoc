@@ -1,3 +1,22 @@
 = Imagesite
 
 This project rocks and uses MIT-LICENSE.
+
+= Intro
+
+A Rails engine that produces a produces a largely static photo gallery style site from a set of images in "project" directories.
+
+= TODO
+
+The following items are outstanding:
+
+- change code to source projects/images from a directory outside of the /public/ area - as currently it means that images/files can be accessed directly.
+Largely not a big issue, as they are visible via the site, but in the long term this might not be true, eg due to adding of watermarks on the fly or using
+a config file that would contain sensitive info and thus cannot be in the /public/ area.
+
+- is there a way to get the /public/ directory of the engine usable via the app, seems to not be visible... eg stylesheets.
+Alternatively, some kind of generator to copy defaults into main app...
+
+- look at plugin option, more portable?
+
+- auto generate thumbnail if not present
