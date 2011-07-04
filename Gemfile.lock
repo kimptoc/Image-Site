@@ -1,3 +1,10 @@
+PATH
+  remote: .
+  specs:
+    imagesite (0.0.2)
+      fastimage
+      jquery-rails
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -96,7 +103,6 @@ PLATFORMS
 
 DEPENDENCIES
   capybara (>= 0.4.0)
-  fastimage
-  jquery-rails
+  imagesite!
   rails (= 3.0.9)
   sqlite3

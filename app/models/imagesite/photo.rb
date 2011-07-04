@@ -1,3 +1,5 @@
+require 'fastimage'
+
 module Imagesite
  class Photo
    attr_accessor :img_file, :caption, :name, :project, :width, :height, :id

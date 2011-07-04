@@ -9,5 +9,7 @@ gem "sqlite3"
 # gem 'ruby-debug19'
 
 
-gem "jquery-rails"
-gem "fastimage"
+#gem "jquery-rails"
+#gem "fastimage"
+
+gemspec
