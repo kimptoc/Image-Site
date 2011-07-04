@@ -1,0 +1,39 @@
+.tab_link {
+    float: left; /* important */
+/* just styling */
+    /*border: 1px solid black;*/
+    /*background: #135484;*/
+    padding: 5px;
+    margin-right: 10px;
+    /*color: white;*/
+    text-decoration: none;
+    /*font-variant: small-caps;*/
+    font-size:10pt;
+}
+
+.tab_link_selected {
+    /*background-color: #65899E;*/
+    color: white;
+    outline: 0;
+}
+
+.tab_link_selected:hover {
+    /*background-color: #65899E;*/
+    color: white;
+}
+
+/* just a different tab link bg color when it's selected */
+
+.tab_text {
+    display: none; /* hide the text containers */
+/* just styling */
+    /*border: 1px solid black;*/
+    padding: 5px;
+    /*color: black;*/
+}
+
+.clear {
+    clear: both;
+}
+
+/* when we use css float property, we need to clear after the last floated item */

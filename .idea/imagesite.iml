@@ -14,11 +14,11 @@
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.5.0, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v3.0.9, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.0.9, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v1.0.12, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fastimage (v1.2.8, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v1.0.12, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v0.2.2, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.28, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.2.19, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.28, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v3.0.9, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.2.3, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.16, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
@@ -36,8 +36,8 @@
     <orderEntry type="library" scope="PROVIDED" name="xpath (v0.1.4, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-mount (v0.6.14, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v3.0.9, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.0.15, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.1, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.0.15, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.5.7, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v2.1.2, RVM: ruby-1.9.2-p180 [p-imagesite]) [gem]" level="application" />
   </component>
