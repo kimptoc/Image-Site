@@ -15,6 +15,9 @@ class SiteConfig
 #  end
 
   def initialize
+
+    @config = YAML.load_file FILE_ROOT_DIR+URL_ROOT_DIR+"siteconfig.yml"
+    Rails.logger.debug "site title:#{@config["siteconfig"]["sitetitle"]}"
     @site_title = "Site Title" # todo - get this from config yaml
     @page_title = "Page Title" # todo - get this from config yaml
     @projects = []
