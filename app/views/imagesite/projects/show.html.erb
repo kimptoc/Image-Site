@@ -1,7 +1,5 @@
 <%= javascript_include_tag "tabs" %>
 
-<h2><%= @project.name %></h2>
-
 <!-- start the tabs wrapper (not necessary, but good to have) -->
 <div id="tabs_wrapper">
     <!--  the tab links  -->
@@ -31,14 +29,11 @@
 
 <div class="container_12">
 <div class="grid_3 projectlinks">
-<span id="pagenum">1</span>/<%= @project.photos.count %>&nbsp; &nbsp; &nbsp;     <a href="#" id="prev" class="nextprev">prev</a> | <a href="#" id="next" class="nextprev">next</a>
+<span id="pagenum">1</span>/<%= @project.photos.count %>&nbsp; &nbsp; &nbsp;     <a href="#" id="prev" class="nextprev">prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" id="next" class="nextprev">next</a>
 </div>
 </div>
 
 <br>
-
-
-<p></p>
 
 <%= javascript_include_tag "jquery-cycle/jquery.cycle.all.min.js" %>
 
@@ -64,7 +59,7 @@ function onAfter(curr,next,opts) {
 
 <div class="pics" id="slideshow">
 <% @project.photos.each do |ph| %>
-    <img src="<%= url_for :controller => "photos", :action => "show", :project_id => @project.id, :photo_id => ph.id %>" height="<%= ph.height %>" width="<%= ph.width %>">
+    <img alt="<%= ph.name %>" src="<%= url_for :controller => "photos", :action => "show", :project_id => @project.id, :photo_id => ph.id %>" height="<%= ph.height %>" width="<%= ph.width %>">
     <%= sanitize ph.caption %>
 <% end %>
 </div>
@@ -73,7 +68,8 @@ function onAfter(curr,next,opts) {
 <div id="thumbnails" class="tab_text">
   <div class="pics" id="thumbs">
   <% @project.photos.each_with_index do |ph, idx| %>
-        <img src="<%= url_for :controller => "photos", :action => "showthumb", :project_id => @project.id, :photo_id => ph.id %>">
+        <img alt="<%= ph.name %>"
+          src="<%= url_for :controller => "photos", :action => "showthumb", :project_id => @project.id, :photo_id => ph.id %>">
   <% end %>
   </div>
 

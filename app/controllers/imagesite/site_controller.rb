@@ -35,7 +35,7 @@ class SiteController < ImagesiteApplicationController
 
     @body_part_html = SiteConfig.load_file_if_exists(SiteConfig::SITE_ROOT_DIR+"/index.html")
 
-    @sample_photos = SiteConfig.projects.flat_map { |p| p.photos.sample(5) }.shuffle
+    @sample_photos = SiteConfig.homepage_photos
 
 #    @slideshow_effect = CYCLE_EFFECTS.sample
     @slideshow_effect = "fade"

@@ -2,7 +2,7 @@ module Imagesite
 
 class SiteConfig
 
-  attr_accessor :projects, :site_title, :page_title
+  attr_accessor :projects, :site_title, :page_title, :homepage_image_project
 
   @@instance = nil
 
@@ -16,10 +16,21 @@ class SiteConfig
 
   def initialize
 
-    @config = YAML.load_file FILE_ROOT_DIR+URL_ROOT_DIR+"siteconfig.yml"
-    Rails.logger.debug "site title:#{@config["siteconfig"]["sitetitle"]}"
-    @site_title = "Site Title" # todo - get this from config yaml
-    @page_title = "Page Title" # todo - get this from config yaml
+    @config = {}
+    rawconfig = YAML.load_file FILE_ROOT_DIR+URL_ROOT_DIR+"siteconfig.yml"
+    @config = rawconfig["siteconfig"] if rawconfig.present?
+    Rails.logger.debug "config:#{@config.nil?}"
+    Rails.logger.debug "site title:#{@config["sitetitle"]}"
+    @site_title = @config["sitetitle"] || "Site Title" # todo - get this from config yaml
+    @page_title = @config["pagetitle"] || "Page Title" # todo - get this from config yaml
+    homepage_imagedir = @config["homepage_imagedir"]
+
+    if File.directory? SITE_ROOT_DIR+ homepage_imagedir
+      Rails.logger.debug "Loading homepage imagedir: #{homepage_imagedir}"
+      @homepage_image_project = Project.new(homepage_imagedir, SITE_ROOT_DIR, URL_ROOT_DIR)
+    end
+    Rails.logger.debug "homepage image project2:#{@homepage_image_project}"
+
     @projects = []
 
 
@@ -27,7 +38,7 @@ class SiteConfig
       Rails.logger.debug "Checking entry:#{entry}"
       path = SITE_ROOT_DIR+entry
 
-      if entry != "." and entry != ".." and File.directory? path
+      if entry != "." and entry != ".." and File.directory? path and entry != homepage_imagedir
         Rails.logger.debug "Entry is a project directory"
         @projects << Project.new(entry, SITE_ROOT_DIR, URL_ROOT_DIR)
       end
@@ -36,6 +47,12 @@ class SiteConfig
 #    @projects << Project.new("Bracknell")
   end
 
+  def self.homepage_photos
+    Rails.logger.debug "homepage image project:#{SiteConfig.instance.homepage_image_project}"
+    return SiteConfig.projects.flat_map { |p| p.photos.sample(5) }.shuffle unless SiteConfig.instance.homepage_image_project.present?
+
+    return SiteConfig.instance.homepage_image_project.photos
+  end
 
   def self.projects
     SiteConfig.instance.projects
@@ -52,6 +69,7 @@ class SiteConfig
   def self.project(id)
     id = Integer(id)
     Rails.logger.debug "Looking for project:#{id}"
+    return SiteConfig.instance.homepage_image_project if SiteConfig.instance.homepage_image_project && SiteConfig.instance.homepage_image_project.id == id
     self.projects.select do |p|
       Rails.logger.debug "Looking for project:#{id}, checking:#{p.id}"
       p.id == id

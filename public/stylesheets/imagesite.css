@@ -1,0 +1,70 @@
+body
+{
+    background-color:white;
+    font-family: "Gentium" "Optima Std Roman" "Skia" "Sylfaen" "Baskerville Roman" "Charter BT" "Georgia" "Palatino Roman" "Tex Gyre Bonum";
+    color:#67392f;
+}
+
+.sitetitle
+{
+    font-size:32pt;
+
+}
+
+a
+{
+    color:#67392f;
+    text-decoration:none;
+}
+
+/*a:hover*/
+/*{*/
+    /*color:#00008b;*/
+    /*text-decoration:underline;*/
+/*}*/
+
+.nextprev
+{
+    text-decoration:underline;
+}
+
+.projectlinks
+{
+    font-size:10pt;
+}
+
+.title
+{
+    /*text-transform:uppercase;*/
+    font-size:12pt;
+
+}
+
+.title li
+{
+    list-style-type:none;
+}
+
+.pics {
+    /*height:  382px;*/
+    /*width:   382px;*/
+    padding: 0;
+    margin:  0;
+}
+
+.pics img {
+    padding: 15px;
+    /*border:  1px solid #ccc;*/
+    /*background-color: #eee;*/
+    /*width:  350px;*/
+    /*height: 350px;*/
+    /*top:  0;*/
+    /*left: 0;*/
+}
+
+
+
+.container_12, .container_16 {
+    margin-left: 50px;
+    margin-right: auto;
+}
