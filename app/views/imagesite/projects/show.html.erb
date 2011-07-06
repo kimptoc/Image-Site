@@ -62,7 +62,7 @@ function onAfter(curr,next,opts) {
   <div>
     <img alt="<%= ph.name %>" src="<%= url_for :controller => "photos", :action => "show", :project_id => @project.id, :photo_id => ph.id %>" height="<%= ph.height %>" width="<%= ph.width %>">
     <br>
-    <%= sanitize ph.caption %>
+    <%= raw ph.caption %>
   </div>
 <% end %>
 </div>
