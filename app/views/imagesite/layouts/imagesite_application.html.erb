@@ -24,7 +24,7 @@
     <p class="title">
     Projects
       <ul class="title">
-        <% @projects.each { |p| %>
+        <% @projects.sort_by {|p| p.name}.each { |p| %>
         <li><%= link_to p.name, :controller => "imagesite/projects", :action => "show", :id => p.id %></li>
         <% } %>
       </ul>
