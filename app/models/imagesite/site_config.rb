@@ -81,10 +81,16 @@ class SiteConfig
     return @@instance
   end
 
+  def self.site_footer
+    load_file_if_exists SITE_ROOT_DIR+"/footer.html"
+  end
+
   def self.load_file_if_exists(filename)
     if File.exists? filename
+      Rails.logger.debug "loading file:#{filename}"
       IO.read filename
     else
+      Rails.logger.debug "File not found:#{filename}"
       ""
     end
   end

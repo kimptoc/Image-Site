@@ -11,6 +11,12 @@ body
 
 }
 
+.sitefooter
+{
+    font-size:8pt;
+    text-align: right;
+}
+
 a
 {
     color:#67392f;

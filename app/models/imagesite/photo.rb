@@ -33,7 +33,8 @@ module Imagesite
    end
 
    def caption
-     SiteConfig.load_file_if_exists @project.url_root_dir+@project.name+"/"+caption_filename+".html"
+     Rails.logger.debug "Checking for caption:#{caption_filename}"
+     SiteConfig.load_file_if_exists @project.root_dir+@project.name+"/"+caption_filename+".html"
    end
   end
  end
