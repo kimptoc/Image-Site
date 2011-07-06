@@ -10,7 +10,11 @@ A Rails engine that produces a produces a largely static photo gallery style sit
 
 The following items are outstanding:
 
-- allow <a> links in user html
+- sort projects by name
+
+- sort images by name
+
+- seo - meta tags/header description, any thing else?
 
 - some thumbnails coming up invalid - really?
 
@@ -34,3 +38,5 @@ a config file that would contain sensitive info and thus cannot be in the /publi
 Alternatively, some kind of generator to copy defaults into main app...
 
 - footer, as requested
+
+- allow <a> links in user html
