@@ -34,7 +34,7 @@ class SiteConfig
     @projects = []
 
 
-    Dir.foreach SITE_ROOT_DIR do |entry|
+    Dir.entries(SITE_ROOT_DIR).sort.each do |entry|
       Rails.logger.debug "Checking entry:#{entry}"
       path = SITE_ROOT_DIR+entry
 

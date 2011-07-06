@@ -22,7 +22,7 @@ module Imagesite
      @root_dir = root_dir
      @url_root_dir = url_root_dir
      @photos = []
-     Dir.foreach root_dir+name do |file|
+     Dir.entries(root_dir+name).sort.each do |file|
        fullpath = root_dir+name+"/"+file
        Rails.logger.debug "Checking for photo:#{fullpath}"
        if File.file? fullpath and image? file

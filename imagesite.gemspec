@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary = "Insert Imagesite summary."
   s.description = "Insert Imagesite description."
   s.files = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.rdoc"]
-  s.version = "0.0.5"
+  s.version = "0.0.6"
 
   s.add_runtime_dependency("fastimage")
   s.add_runtime_dependency("jquery-rails")
