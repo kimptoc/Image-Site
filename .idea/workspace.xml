@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd4bb49-0ffd-48ef-bc1e-b6106cd458a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb" afterPath="$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb" afterPath="$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagesite.gemspec" afterPath="$PROJECT_DIR$/imagesite.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
     </list>
     <ignored path="imagesite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rdoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="12" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+            <state line="16" column="93" selection-start="426" selection-end="426" vertical-scroll-proportion="0.6818182">
               <folding />
             </state>
           </provider>
@@ -99,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imagesite.gemspec" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="imagesite.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imagesite.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.28767124">
+            <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,13 +138,13 @@
         <option value="$PROJECT_DIR$/app/models/imagesite/photo.rb" />
         <option value="$PROJECT_DIR$/test/dummy/siteconfig/footer.html" />
         <option value="$PROJECT_DIR$/app/views/imagesite/site/index.html.erb" />
-        <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/lib/imagesite/version.rb" />
         <option value="$PROJECT_DIR$/app/models/imagesite/site_config.rb" />
         <option value="$PROJECT_DIR$/app/models/imagesite/project.rb" />
         <option value="$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb" />
         <option value="$PROJECT_DIR$/imagesite.gemspec" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -776,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/imagesite/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -839,7 +830,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imagesite.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.28767124">
+        <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="93" selection-start="426" selection-end="426" vertical-scroll-proportion="0.6818182">
           <folding />
         </state>
       </provider>

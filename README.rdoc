@@ -10,17 +10,11 @@ A Rails engine that produces a produces a largely static photo gallery style sit
 
 The following items are outstanding:
 
-- sort projects by name
-
-- sort images by name
-
 - seo - meta tags/header description, any thing else?
-
-- some thumbnails coming up invalid - really?
 
 - alt/tooltips not working on images
 
-- if missing thumbnail, dont show it (or auto gen...)
+- if missing thumbnail, dont show it (or auto gen...)    - but dont give missing image error!
 
 - click on homepage image and it advances to next
 
