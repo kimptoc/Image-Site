@@ -2,7 +2,7 @@ module Imagesite
 
 class SiteConfig
 
-  attr_accessor :projects, :site_title, :page_title, :homepage_image_project
+  attr_accessor :projects, :site_title, :page_title, :homepage_image_project, :meta
 
   @@instance = nil
 
@@ -21,8 +21,9 @@ class SiteConfig
     @config = rawconfig["siteconfig"] if rawconfig.present?
     Rails.logger.debug "config:#{@config.nil?}"
     Rails.logger.debug "site title:#{@config["sitetitle"]}"
-    @site_title = @config["sitetitle"] || "Site Title" # todo - get this from config yaml
-    @page_title = @config["pagetitle"] || "Page Title" # todo - get this from config yaml
+    @site_title = @config["sitetitle"] || "Site Title"
+    @page_title = @config["pagetitle"] || "Page Title"
+    @meta = @config["meta"] || {}
     homepage_imagedir = @config["homepage_imagedir"]
 
     if File.directory? SITE_ROOT_DIR+ homepage_imagedir

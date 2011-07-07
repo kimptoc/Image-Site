@@ -11,6 +11,7 @@ class ImagesiteApplicationController < ::ApplicationController
     @site_title = SiteConfig.site_title
     @page_title = SiteConfig.page_title
     @site_footer = SiteConfig.site_footer
+    @meta = SiteConfig::instance.meta
   end
 
 end
