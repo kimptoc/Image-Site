@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd4bb49-0ffd-48ef-bc1e-b6106cd458a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/imagesite/imagesite_application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/imagesite/imagesite_application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/imagesite/site_config.rb" afterPath="$PROJECT_DIR$/app/models/imagesite/site_config.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb" afterPath="$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagesite.gemspec" afterPath="$PROJECT_DIR$/imagesite.gemspec" />
     </list>
     <ignored path="imagesite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="siteconfig.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="siteconfig.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/dummy/siteconfig/siteconfig.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="168" selection-end="168" vertical-scroll-proportion="0.24657534">
+            <state line="6" column="30" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imagesite.gemspec" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="imagesite.gemspec" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imagesite.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+            <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.28767124">
               <folding />
             </state>
           </provider>
@@ -141,12 +139,12 @@
         <option value="$PROJECT_DIR$/lib/imagesite/version.rb" />
         <option value="$PROJECT_DIR$/app/models/imagesite/project.rb" />
         <option value="$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb" />
-        <option value="$PROJECT_DIR$/imagesite.gemspec" />
         <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/app/models/imagesite/site_config.rb" />
         <option value="$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/imagesite/imagesite_application_controller.rb" />
         <option value="$PROJECT_DIR$/test/dummy/siteconfig/siteconfig.yml" />
+        <option value="$PROJECT_DIR$/imagesite.gemspec" />
       </list>
     </option>
   </component>
@@ -804,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imagesite.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="93" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
@@ -841,7 +832,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/dummy/siteconfig/siteconfig.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="168" selection-end="168" vertical-scroll-proportion="0.24657534">
+        <state line="6" column="30" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagesite.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.28767124">
           <folding />
         </state>
       </provider>
