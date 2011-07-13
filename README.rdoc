@@ -10,8 +10,6 @@ A Rails engine that produces a produces a largely static photo gallery style sit
 
 The following items are outstanding:
 
-- seo - meta tags/header description, any thing else?
-
 - alt/tooltips not working on images
 
 - if missing thumbnail, dont show it (or auto gen...)    - but dont give missing image error!
@@ -23,6 +21,8 @@ The following items are outstanding:
 - auto generate thumbnail if not present
 
 = DONE
+
+- seo - meta tags/header description, any thing else?
 
 - change code to source projects/images from a directory outside of the /public/ area - as currently it means that images/files can be accessed directly.
 Largely not a big issue, as they are visible via the site, but in the long term this might not be true, eg due to adding of watermarks on the fly or using

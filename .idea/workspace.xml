@@ -2,7 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd4bb49-0ffd-48ef-bc1e-b6106cd458a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasB-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasB-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasB-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasB-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasBI-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasBI-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasBI-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasBI-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasI-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasI-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasI-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasI-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasR-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasR-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasR-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBasR-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasB-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasB-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasB-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasB-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasBI-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasBI-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasBI-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasBI-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasI-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasI-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasI-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasI-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasR-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasR-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasR-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gentium/GenBkBasR-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/gentium.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/imagesite.iml" afterPath="$PROJECT_DIR$/.idea/imagesite.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb" afterPath="$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagesite.gemspec" afterPath="$PROJECT_DIR$/imagesite.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/imagesite.css" afterPath="$PROJECT_DIR$/public/stylesheets/imagesite.css" />
     </list>
     <ignored path="imagesite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,37 +65,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="site_config.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/imagesite/site_config.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="54" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/imagesite/site_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/imagesite/project.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="41" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="imagesite_application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="154" selection-end="154" vertical-scroll-proportion="-3.125">
+            <state line="7" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imagesite.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/imagesite.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="30" selection-start="208" selection-end="208" vertical-scroll-proportion="0.21306819">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gentium.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/gentium.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="35" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-1.8727273">
               <folding />
             </state>
           </provider>
@@ -73,7 +104,7 @@
       <file leaf-file-name="siteconfig.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/dummy/siteconfig/siteconfig.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+            <state line="6" column="30" selection-start="91" selection-end="168" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,7 +113,7 @@
       <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.rdoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="93" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,16 +122,25 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="35" selection-start="1637" selection-end="1637" vertical-scroll-proportion="-3.125">
+            <state line="60" column="35" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imagesite.gemspec" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="imagesite.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imagesite.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.28767124">
+            <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="27" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,7 +149,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/imagesite/site/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="7" selection-start="520" selection-end="520" vertical-scroll-proportion="-12.5">
+            <state line="20" column="7" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,22 +169,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/imagesite/site_controller.rb" />
-        <option value="$PROJECT_DIR$/public/stylesheets/imagesite.css" />
         <option value="$PROJECT_DIR$/app/models/imagesite/photo.rb" />
         <option value="$PROJECT_DIR$/test/dummy/siteconfig/footer.html" />
         <option value="$PROJECT_DIR$/app/views/imagesite/site/index.html.erb" />
         <option value="$PROJECT_DIR$/lib/imagesite/version.rb" />
         <option value="$PROJECT_DIR$/app/models/imagesite/project.rb" />
         <option value="$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb" />
-        <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/app/models/imagesite/site_config.rb" />
-        <option value="$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/imagesite/imagesite_application_controller.rb" />
         <option value="$PROJECT_DIR$/test/dummy/siteconfig/siteconfig.yml" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb" />
         <option value="$PROJECT_DIR$/imagesite.gemspec" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/public/stylesheets/gentium.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/imagesite.css" />
       </list>
     </option>
   </component>
@@ -174,6 +214,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -428,6 +469,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imagesite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imagesite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -597,16 +652,15 @@
         </subPane>
       </pane>
       <pane id="Favorites" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="ruby.project.structure" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -734,39 +788,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/imagesite.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/imagesite/photo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="45" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@p-imagesite/gems/actionpack-3.0.9/lib/action_controller/vendor/html-scanner/html/sanitizer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="8" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/dummy/siteconfig/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="57" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="57" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/imagesite/projects_controller.rb">
@@ -774,72 +803,83 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/imagesite/site_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/imagesite/site_config.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="54" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/imagesite/site/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/imagesite/site_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="7" selection-start="520" selection-end="520" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/imagesite/project.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
+        <state line="24" column="41" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/imagesite/imagesite_application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="24" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/dummy/siteconfig/siteconfig.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="91" selection-end="168" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="35" selection-start="1637" selection-end="1637" vertical-scroll-proportion="-3.125">
+        <state line="60" column="35" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
+    <entry file="file://$PROJECT_DIR$/app/views/imagesite/site/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="93" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
+        <state line="20" column="7" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="154" selection-end="154" vertical-scroll-proportion="-3.125">
+        <state line="7" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/imagesite/site_config.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="54" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/imagesite/imagesite_application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/dummy/siteconfig/siteconfig.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+        <state line="1" column="27" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imagesite.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.28767124">
+        <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/gentium.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="35" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-1.8727273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/imagesite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="208" selection-end="208" vertical-scroll-proportion="0.21306819">
           <folding />
         </state>
       </provider>
