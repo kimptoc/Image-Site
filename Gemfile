@@ -1,4 +1,5 @@
 source "http://rubygems.org"
+#source "http://rubygems.dev"
 
 gem "rails", "3.0.9"
 gem "capybara", ">= 0.4.0"
