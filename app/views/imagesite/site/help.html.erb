@@ -9,11 +9,13 @@ code {
 
 <h2>how to make changes, checkin, push to heroku</h2>
 
+<p>The first time, you will need to ensure bundler is installed with this command<br><code>gem install bundler</code></p>
+
 The first step is optional, only needed if the code that generates the site changes (that is, the stuff Chris does).
 The second step is needed as the "checkin" defines what is sent to Heroku.
 The last step is the one that actually sends it to Heroku.
 <ol>
-  <li>Get the latest code that builds the site, using command <br><code>gem update imagesite</code></li>
+  <li>Get the latest code that builds the site, using command <br><code>bundle update imagesite</code></li>
   <li>Checkin that code and your changes using this command line:<br> <code>git add .; git commit -a -m"checkin"</code></li>
   <li>Push changes to heroku, with this command <br><code>git push heroku master</code></li>
 </ol>
