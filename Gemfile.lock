@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    imagesite (0.0.9)
+    imagesite (0.1.0)
       fastimage
       jquery-rails
 
