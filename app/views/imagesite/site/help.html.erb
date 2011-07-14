@@ -1,0 +1,91 @@
+<style>
+code {
+  background-color: yellow;
+}
+</style>
+
+<h1>HELP</h1>
+
+
+<h2>how to make changes, checkin, push to heroku</h2>
+
+The first step is optional, only needed if the code that generates the site changes (that is, the stuff Chris does).
+The second step is needed as the "checkin" defines what is sent to Heroku.
+The last step is the one that actually sends it to Heroku.
+<ol>
+  <li>Get the latest code that builds the site, using command <br><code>gem update imagesite</code></li>
+  <li>Checkin that code and your changes using this command line:<br> <code>git add .; git commit -a -m"checkin"</code></li>
+  <li>Push changes to heroku, with this command <br><code>git push heroku master</code></li>
+</ol>
+
+<h2>how to set captions, page/site header, seo</h2>
+
+<p>Captions for images are specified by creating a file with the exact same name as the corresponding image in the same directory
+but with a suffix of html instead of jpg (or png).  For example, for image <code>siteconfig/project1/image1.jpg</code>, create a text
+file with its caption in called <code>siteconfig/project1/image1.html</code>.</p>
+
+<p>The page and site header is specified in the config file <code>siteconfig/siteconfig.yml</code> - see below for example of this file.</p>
+
+<p>For SEO, similarly the search helper bits are specified in that file, namely <code>meta/description</code> and <code>meta/keywords</code>, again see below.</p>
+
+<h2>How to amend the information/links/footer sections</h2>
+The about, information and footer text are defined in the following files
+<ul>
+  <li><code>siteconfig/links.html</code></li>
+  <li><code>siteconfig/information.html</code></li>
+  <li><code>siteconfig/footer.html</code> - used for copyright line</li>
+  <li><code>siteconfig/index.html</code> - is currently empty</li>
+</ul>
+They are all html files, so feel free to use any html tags - but just plain text should be fine too.
+
+<h2>image ordering by name</h2>
+Images are sorted by name - so change the name to change the order.  Note that its alphabetical sorting, not numeric -
+so image1 is followed by image10... and then image2.  Instead name them like this; image01, image02 to get the correct ordering.
+
+<h2>homepage images in special dir</h2>
+In the config file, the entry <code>homepage_imagedir</code> defines a special directory - this holds the images to be shown
+on the front page.  Again sorted by name.  This directory is then excluded from being a "project" directory.
+
+<h2>how to add/remove project</h2>
+<p>Projects are defined by creating a directory below the <code>siteconfig</code> directory and putting images in it.</p>
+
+<p>Thumbnails for the project are looked for in a subdirectory called "thumb", so for <code>project1</code>, it will look for
+thumbnails in directory <code>project1/thumb</code>.</p>
+
+<p>Thumbnail images must have the exact name and case as their larger size version, for example <code>Image01.jpg</code> should have a
+thumbnail called <code>thumb/Image01.jpg</code> - but if it was called <code>thumb/Image01.JPG</code> it will NOT be found.
+It is assumed that all images will have a thumbnail and thus you will get a missing image type error if its not present.
+</p>
+
+
+<h2>Sample site config</h2>
+
+Here is a sample <code>siteconfig.yml</code> file (NOTE - the spacing/indentation is significant - double check it if
+things are not working):
+
+<pre>
+  siteconfig:
+  sitetitle: Donuts Forever
+  pagetitle: Donuts!
+  homepage_imagedir: homepage
+  meta:
+    description: this is my donut site
+    keywords: donuts doughnuts
+</pre>
+
+<h2>Technical setup</h2>
+<p>To deploy the site to Heroku, you need a minimum of git and ruby installed, along with the heroku gem.</p>
+
+<p>The rvm utility should be used to make it easy to manage your ruby installation.</p>
+
+<p>The site is generated using a Rails 3.0 engine, sourced from this project: <a href="https://github.com/kimptoc/Image-Site">https://github.com/kimptoc/Image-Site</a></p>
+
+To setup a new site, follow these steps:
+<ol>
+  <li>Create a new rails project (using rails new [projectname]</li>
+  <li>Add the imagesite engine to the Gemfile, like this <br><code>gem 'imagesite', :git => 'git://github.com/kimptoc/Image-Site.git'</code>
+)</li>
+  <li>Initialise git with <code>git init</code></li>
+  <li>Create a directory called <code>siteconfig</code> and create a config file in it - <code>siteconfig.yml</code></li>
+  <li>Create image directories and publish to heroku as defined above.</li>
+</ol>

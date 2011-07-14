@@ -53,6 +53,10 @@ class SiteController < ImagesiteApplicationController
 
   end
 
+  def help
+
+  end
+
 #private:
   def render_from_file(filename)
 

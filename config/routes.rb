@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   root :to => "imagesite/site#index"
 
+  get "help" => "imagesite/site#help"
+
   get "site" => "imagesite/site#index" , :as => :site
   get 'information' => 'imagesite/site#information'
   get 'links' => 'imagesite/site#links'
