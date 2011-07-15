@@ -24,15 +24,14 @@
 
 <div class="container_12">
   <div class="grid_3">
-    &nbsp;<br>
-    <p class="title">
+    <div class="title">
     Projects
       <ul class="title">
         <% @projects.sort_by {|p| p.name}.each { |p| %>
         <li><%= link_to p.name, :controller => "imagesite/projects", :action => "show", :id => p.id %></li>
         <% } %>
       </ul>
-    </p>
+    </div>
     <p class="title">&nbsp;
     </p>
     <p class="title">

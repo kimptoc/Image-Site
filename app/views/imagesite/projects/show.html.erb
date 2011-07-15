@@ -69,6 +69,8 @@ function onAfter(curr,next,opts) {
 
 </div>
 <div id="thumbnails" class="tab_text">
+  &nbsp;<br>
+  &nbsp;<br>
   <div class="pics" id="thumbs">
   <% @project.photos.each_with_index do |ph, idx| %>
         <img alt="<%= ph.name %>"
@@ -80,6 +82,8 @@ function onAfter(curr,next,opts) {
 </div>
 <% end %>
 <div id="about" class="tab_text">
+  &nbsp;<br>
+  &nbsp;<br>
 <%= sanitize @about_part_html %>
 </div>
 <!--  end tab text containers  -->

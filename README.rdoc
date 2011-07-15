@@ -20,6 +20,8 @@ The following items are outstanding:
 
 - auto generate thumbnail if not present
 
+- add google analytics
+
 = DONE
 
 - seo - meta tags/header description, any thing else?
