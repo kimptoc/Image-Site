@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd4bb49-0ffd-48ef-bc1e-b6106cd458a2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/imagesite.iml" afterPath="$PROJECT_DIR$/.idea/imagesite.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb" afterPath="$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagesite.gemspec" afterPath="$PROJECT_DIR$/imagesite.gemspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/tabs.css" afterPath="$PROJECT_DIR$/public/stylesheets/tabs.css" />
@@ -30,19 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="59" selection-start="941" selection-end="941" vertical-scroll-proportion="0.34664246">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tabs.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/tabs.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+            <state line="10" column="103" selection-start="424" selection-end="424" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -52,6 +45,15 @@
         <entry file="file://$PROJECT_DIR$/public/stylesheets/imagesite.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="34" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabs.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/tabs.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="16" selection-start="439" selection-end="439" vertical-scroll-proportion="0.48469388">
               <folding />
             </state>
           </provider>
@@ -69,7 +71,7 @@
       <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.rdoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="22" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+            <state line="12" column="11" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,10 +119,10 @@
         <option value="$PROJECT_DIR$/app/controllers/imagesite/site_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/imagesite/site/help.html.erb" />
-        <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb" />
-        <option value="$PROJECT_DIR$/imagesite.gemspec" />
         <option value="$PROJECT_DIR$/public/stylesheets/imagesite.css" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/imagesite.gemspec" />
         <option value="$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/tabs.css" />
       </list>
@@ -152,6 +154,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -629,7 +632,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -811,21 +813,16 @@
         <state line="17" column="78" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/imagesite.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/imagesite/layouts/imagesite_application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="9" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="33" column="9" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" />
+        <state line="12" column="11" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -838,16 +835,21 @@
         <state line="7" column="20" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/tabs.css">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/imagesite.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="34" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/imagesite/projects/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="59" selection-start="941" selection-end="941" vertical-scroll-proportion="0.34664246">
+        <state line="10" column="103" selection-start="424" selection-end="424" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/tabs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="16" selection-start="439" selection-end="439" vertical-scroll-proportion="0.48469388">
           <folding />
         </state>
       </provider>

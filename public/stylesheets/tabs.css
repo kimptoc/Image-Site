@@ -11,15 +11,30 @@
     font-size:10pt;
 }
 
+.tab_link_pipe {
+    float: left; /* important */
+/* just styling */
+    /*border: 1px solid black;*/
+    /*background: #135484;*/
+    padding: 5px;
+    /*margin-right: 10px;*/
+    /*color: white;*/
+    /*text-decoration: none;*/
+    /*font-variant: small-caps;*/
+    /*font-size:10pt;*/
+}
+
 .tab_link_selected {
     /*background-color: #65899E;*/
-    color: white;
+    /*color: white;*/
+    color: #d3d3d3;
     outline: 0;
 }
 
 .tab_link_selected:hover {
     /*background-color: #65899E;*/
-    color: white;
+    /*color: white;*/
+    color: #d3d3d3;
 }
 
 /* just a different tab link bg color when it's selected */
