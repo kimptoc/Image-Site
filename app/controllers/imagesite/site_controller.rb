@@ -42,16 +42,16 @@ class SiteController < ImagesiteApplicationController
 
   end
 
-  def information
+  def anypage
 
-    render_from_file(SiteConfig::SITE_ROOT_DIR+"/information.html")
+    page = params[:page]
+
+    page_file = SiteConfig::instance.file_for_page page
+    render_from_file(SiteConfig::SITE_ROOT_DIR+"/"+page_file) if page_file.present?
+
+    render(:text => "Page #{page} was not found", :status => 404) unless page_file.present?
   end
 
-  def links
-
-    render_from_file(SiteConfig::SITE_ROOT_DIR+"/links.html")
-
-  end
 
   def help
 

@@ -2,7 +2,7 @@ module Imagesite
 
 class SiteConfig
 
-  attr_accessor :projects, :site_title, :page_title, :homepage_image_project, :meta
+  attr_accessor :projects, :site_title, :page_title, :homepage_image_project, :meta, :menuitems
 
   @@instance = nil
 
@@ -24,6 +24,9 @@ class SiteConfig
     @site_title = @config["sitetitle"] || "Site Title"
     @page_title = @config["pagetitle"] || "Page Title"
     @meta = @config["meta"] || {}
+
+    @menuitems = @config["menuitems"] || {}
+
     homepage_imagedir = @config["homepage_imagedir"]
 
     if File.directory? SITE_ROOT_DIR+ homepage_imagedir
@@ -46,6 +49,12 @@ class SiteConfig
     end
 
 #    @projects << Project.new("Bracknell")
+  end
+
+  def file_for_page(page)
+    Rails.logger.debug "Looking for #{page} in #{@menuitems}"
+    page_hash = @menuitems[page]
+    page_hash["content"] if page_hash.present?
   end
 
   def self.homepage_photos

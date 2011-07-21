@@ -1,8 +1,13 @@
 body
 {
     background-color:white;
-    font-family: 'GentiumBasicRegular','Optima Std Roman','Skia','Sylfaen','Baskerville Roman','Charter BT','Georgia','Palatino Roman','Tex Gyre Bonum';
+    font-family: 'GentiumBasicRegular','Georgia','Optima Std Roman','Skia','Sylfaen','Baskerville Roman','Charter BT','Georgia','Palatino Roman','Tex Gyre Bonum';
     color:#67392f;
+}
+
+h1
+{
+    font-weight: normal;
 }
 
 .sitetitle

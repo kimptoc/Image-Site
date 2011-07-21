@@ -12,6 +12,7 @@ class ImagesiteApplicationController < ::ApplicationController
     @page_title = SiteConfig.page_title
     @site_footer = SiteConfig.site_footer
     @meta = SiteConfig::instance.meta
+    @menuitems = SiteConfig::instance.menuitems
   end
 
 end

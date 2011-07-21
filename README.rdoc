@@ -10,14 +10,8 @@ A Rails engine that produces a produces a largely static photo gallery style sit
 
 The following items are outstanding:
 
-- pipe (|) between next/prev and other options
-
-- For those browsers who won't see Gentium I would like them to see
-Forum (from google's web fonts).
-
 - make thumbnails clickable - displays the larger version of the image
 
-- make left hand options configurable, eg via yaml file or use file names
 
 - alt/tooltips not working on images
 
@@ -32,6 +26,13 @@ Forum (from google's web fonts).
 - add google analytics
 
 = DONE
+
+- For those browsers who won't see Gentium I would like them to see
+Georgia (from google's web fonts).
+
+- make left hand options configurable, eg via yaml file or use file names
+
+- pipe (|) between next/prev and other options
 
 - seo - meta tags/header description, any thing else?
 

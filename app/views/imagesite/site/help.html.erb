@@ -59,7 +59,16 @@ thumbnail called <code>thumb/Image01.jpg</code> - but if it was called <code>thu
 It is assumed that all images will have a thumbnail and thus you will get a missing image type error if its not present.
 </p>
 
+<h2>How to change/reorder/add/remove left hand menu items after projects section</h2>
+<p>The menu items and their order are defined in the siteconfig.yml file - see below for an example.
+The order in the config file is the order displayed. The content file name is expected to be in the top level siteconfig
+directory. To add/remove items, add/remove entries in the config files</p>
 
+<h2>How to test the site before deploying it</h2>
+<p>
+  In the project top directory, type <code>rails s</code>, if this starts ok, you should be able to see the site at this
+   <a href="http://0.0.0.0:3000">link http://0.0.0.0:3000</a>
+</p>
 <h2>Sample site config</h2>
 
 Here is a sample <code>siteconfig.yml</code> file (NOTE - the spacing/indentation is significant - double check it if
@@ -73,6 +82,13 @@ things are not working):
   meta:
     description: this is my donut site
     keywords: donuts doughnuts
+  menuitems:
+    links:
+      title: Links
+      content: links.html
+    info:
+      title: Info
+      content: information.html
 </pre>
 
 <h2>Technical setup</h2>

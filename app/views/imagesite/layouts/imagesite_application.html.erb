@@ -34,12 +34,11 @@
     </div>
     <p class="title">&nbsp;
     </p>
-    <p class="title">
-      <%= link_to "Information", :controller => "imagesite/site", :action => "information" %>
-    </p>
-    <p class="title">
-      <%= link_to "Links", :controller => "imagesite/site", :action => "links" %>
-    </p>
+    <% @menuitems.each do | linkkey, menuitem| %>
+        <p class="title">
+          <%= link_to menuitem["title"], :controller => "imagesite/site", :action => "anypage", :page => linkkey %>
+        </p>
+    <% end %>
   </div>
   <div class="grid_9">
     <%= yield %>
