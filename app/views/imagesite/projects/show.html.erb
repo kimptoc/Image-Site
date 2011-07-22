@@ -8,7 +8,7 @@
   </div>
   <div class="grid_3 projectlinks">
     <% if @project.present? and @project.photos.count > 0 %>
-    <a class="tab_link tab_link_selected" title="#images" href="#">back</a><span class="tab_link_pipe">|&nbsp;</span>
+    <a class="tab_link tab_link_selected" title="#images" href="#" id="bigimages">back</a><span class="tab_link_pipe">|&nbsp;</span>
     <a class="tab_link" title="#thumbnails" href="#">thumbnails</a><span class="tab_link_pipe">|&nbsp;</span>
     <a class="tab_link" title="#about" href="#">about</a>
     <% else %>
@@ -75,7 +75,7 @@ function onAfter(curr,next,opts) {
   &nbsp;<br>
   <div class="pics" id="thumbs">
   <% @project.photos.each_with_index do |ph, idx| %>
-        <img alt="<%= ph.name %>"
+        <img alt="<%= ph.name %>" onclick="thumbClick('<%= idx %>');"
           src="<%= url_for :controller => "photos", :action => "showthumb", :project_id => @project.id, :photo_id => ph.id %>">
   <% end %>
   </div>

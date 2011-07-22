@@ -42,4 +42,15 @@ $(document).ready(function() {
         });
 
     });
+
 });
+
+function thumbClick(idx)
+{
+//    alert($('bigimages'));
+//    $('bigimages').trigger('click');
+    $('#bigimages').click();
+    $('#slideshow').cycle(idx);
+//alert("Clicked image # "+idx);
+    return false;
+}
